@@ -407,10 +407,7 @@ export function Contact() {
                         )}
                       </button>
 
-                      <p className="text-gray-600 text-xs text-center">
-                        Messages are processed via Formspree. Configure your endpoint in{' '}
-                        <code className="font-mono">src/components/sections/Contact.tsx</code>.
-                      </p>
+                      
                     </div>
                   </form>
                 )}
