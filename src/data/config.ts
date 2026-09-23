@@ -12,7 +12,7 @@ export const navLinks: NavLink[] = [
 
 export const contactInfo: ContactInfo = {
   email: 'sabalsilwal57@gmail.com',
-  phone: '9865247946',
+  phone: '+977 9865247946',
   location: 'Chitwan, Nepal',
   linkedin: 'https://www.linkedin.com/in/raz-silwal-74812a198',
   github: 'https://github.com/razsilwal',

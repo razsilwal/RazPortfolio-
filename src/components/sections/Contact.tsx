@@ -161,7 +161,7 @@ export function Contact() {
     // Sign up at https://formspree.io/ and create a new form to get an ID.
     // Example: https://formspree.io/f/abcde123
     // ─────────────────────────────────────────────────────────────────────────
-    const FORMSPREE_ENDPOINT = 'https://formspree.io/f/YOUR_FORM_ID';
+    const FORMSPREE_ENDPOINT = 'https://formspree.io/f/xbglyznn';
 
     try {
       const response = await fetch(FORMSPREE_ENDPOINT, {
