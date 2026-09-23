@@ -1,0 +1,6 @@
+# robots.txt — Raj Krishna Silwal Portfolio
+User-agent: *
+Allow: /
+Disallow: /src/
+
+Sitemap: https://rajkrishnasilwal.com.np/sitemap.xml
