@@ -111,18 +111,18 @@ export function Hero() {
               className="text-lg sm:text-xl text-gray-300 font-medium mb-6 animate-slide-up"
               style={{ animationDelay: '0.2s', animationFillMode: 'both' }}
             >
-              Computer Science Graduate &nbsp;|&nbsp; Software Developer
-            </p>
+          Computer Science Graduate &nbsp;|&nbsp; Software Developer &nbsp;|&nbsp; Data Science &amp; ML Enthusiast            </p>
 
             {/* Introduction */}
             <p
-              className="text-gray-400 text-base sm:text-lg leading-relaxed max-w-xl mb-10 animate-slide-up"
-              style={{ animationDelay: '0.3s', animationFillMode: 'both' }}
-            >
-              Computer Applications graduate with hands-on experience in Python, Django, PHP,
-              MySQL, JavaScript, and web application development. Interested in software systems,
-              backend development, advanced computing, and graduate study in Computer Science.
-            </p>
+  className="text-gray-400 text-base sm:text-lg leading-relaxed max-w-xl mb-10 animate-slide-up"
+  style={{ animationDelay: '0.3s', animationFillMode: 'both' }}
+>
+  Raj Krishna Silwal is a Computer Science graduate from Nepal and a software developer
+  interested in Data Science, Machine Learning, Python, and backend development. He has
+  hands-on experience with Django, PHP, MySQL, JavaScript, React, and database-driven
+  web applications.
+</p>
 
             {/* CTA buttons */}
             <div
