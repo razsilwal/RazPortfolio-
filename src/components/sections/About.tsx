@@ -3,7 +3,7 @@ import { SectionHeading } from '../ui/SectionHeading';
 
 // ─── Same photo config as Hero — keep in sync ────────────────────────────────
 const HAS_PHOTO = true;
-const PROFILE_IMAGE_URL = '/images/profile.png';
+const PROFILE_IMAGE_URL = '/images/profile.webp';
 
 const academicInterests = [
   'Computer Science',
