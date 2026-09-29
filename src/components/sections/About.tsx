@@ -7,13 +7,12 @@ const PROFILE_IMAGE_URL = '/images/profile.png';
 
 const academicInterests = [
   'Computer Science',
-  'Software Systems',
+  'Data Science',
+  'Machine Learning',
   'Backend Development',
   'Database Systems',
-  'Web Technologies',
-  'Advanced Computing',
+  'Software Systems',
 ];
-
 
 export function About() {
   const { ref, isInView } = useInView();
@@ -39,32 +38,35 @@ export function About() {
             {/* Main bio */}
             <div className="lg:col-span-3 space-y-5">
               <p className="text-gray-300 text-base leading-relaxed">
-                I am a{' '}
-                <span className="text-white font-medium">Computer Applications graduate</span> from
-                Tribhuvan University with a CGPA of{' '}
-                <span className="text-primary-300 font-semibold">3.17/4.00</span>, completed at
-                Sungava College, Chitwan, Nepal in 2024.
+                <span className="text-white font-medium">Raj Krishna Silwal</span> is a Computer
+                Science graduate from{' '}
+                <span className="text-white font-medium">Tribhuvan University</span> (BCA, 2024),
+                based in Chitwan, Nepal. He has hands-on experience in backend web development with
+                Python, Django, MySQL, and PHP, and has built database-driven web applications
+                through academic and professional work.
               </p>
 
               <p className="text-gray-300 text-base leading-relaxed">
-                I have practical experience as a{' '}
-                <span className="text-white font-medium">Python Django Developer Intern</span> at
-                Mindrisers Technology, where I worked in a professional software development
-                environment building and maintaining web application functionality with Python,
-                Django, and MySQL.
+                He completed a{' '}
+                <span className="text-white font-medium">Python Django Developer internship</span>{' '}
+                at Mindrisers Technology, where he worked on web application functionality,
+                database components, and version control using Git. His projects include
+                e-commerce systems, management platforms, and other database-driven applications.
               </p>
 
               <p className="text-gray-300 text-base leading-relaxed">
-                My development experience includes Python, Django, PHP, MySQL, JavaScript, React,
-                HTML, CSS, and Git. I have applied these technologies in academic and internship
-                projects involving web application development, database-driven systems, and
-                administrative interfaces.
+                Raj is currently preparing for{' '}
+                <span className="text-primary-300 font-semibold">
+                  graduate study in Data Science and Machine Learning
+                </span>
+                . His goal is to build on his software development foundation to work with
+                data-driven systems, and he is actively expanding his knowledge in statistics,
+                machine learning, and data analysis.
               </p>
 
               <p className="text-gray-300 text-base leading-relaxed">
-                I am currently exploring opportunities in software development and graduate study in
-                Computer Science, with a focus on software systems, backend development, and
-                database technologies.
+                He is open to developer roles and research opportunities in this direction, with a
+                focus on backend development, data-driven applications, and software systems.
               </p>
             </div>
 
@@ -80,7 +82,7 @@ export function About() {
                       {HAS_PHOTO ? (
                         <img
                           src={PROFILE_IMAGE_URL}
-                          alt="Raj Krishna Silwal"
+                          alt="Raj Krishna Silwal, Computer Science graduate and software developer from Nepal"
                           className="w-full h-full object-cover"
                           loading="lazy"
                         />
