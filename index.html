@@ -45,60 +45,69 @@
 
     <!-- JSON-LD Structured Data -->
     <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Person",
-          "@id": "https://www.rajkrishnasilwal.com.np/#person",
-          "name": "Raj Krishna Silwal",
-          "url": "https://rajkrishnasilwal.com.np/",
-          "email": "sabalsilwal57@gmail.com",
-          "telephone": "+977-9865247946",
-          "jobTitle": "Computer Science Graduate & Software Developer",
-          "description": "Computer Applications graduate from Tribhuvan University with hands-on experience in Python, Django, PHP, MySQL, JavaScript, and web application development.",
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Chitwan",
-            "addressCountry": "NP"
-          },
-          "alumniOf": {
-            "@type": "CollegeOrUniversity",
-            "name": "Tribhuvan University",
-            "address": {
-              "@type": "PostalAddress",
-              "addressCountry": "NP"
-            }
-          },
-          "knowsAbout": [
-            "Python",
-            "Django",
-            "PHP",
-            "MySQL",
-            "JavaScript",
-            "React",
-            "Web Development",
-            "Software Development",
-            "Backend Development"
-          ],
-          "sameAs": [
-            "https://www.linkedin.com/in/raz-silwal-74812a198",
-            "https://github.com/razsilwal"
-          ]
-        },
-        {
-          "@type": "WebSite",
-          "@id": "https://www.rajkrishnasilwal.com.np/#website",
-          "url": "https://www.rajkrishnasilwal.com.np/",
-          "name": "Raj Krishna Silwal",
-          "description": "Personal portfolio of Raj Krishna Silwal, Computer Science graduate and Software Developer from Nepal.",
-          "author": {
-            "@id": "https://www.rajkrishnasilwal.com.np/#person"
-          }
+      "@type": "ProfilePage",
+      "@id": "https://www.rajkrishnasilwal.com.np/#profile",
+      "url": "https://www.rajkrishnasilwal.com.np/",
+      "name": "Raj Krishna Silwal | Computer Science Graduate & Software Developer",
+      "isPartOf": {
+        "@id": "https://www.rajkrishnasilwal.com.np/#website"
+      },
+      "mainEntity": {
+        "@id": "https://www.rajkrishnasilwal.com.np/#person"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.rajkrishnasilwal.com.np/#person",
+      "name": "Raj Krishna Silwal",
+      "alternateName": "Raz Silwal",
+      "url": "https://www.rajkrishnasilwal.com.np/",
+      "jobTitle": "Computer Science Graduate & Software Developer",
+      "description": "Raj Krishna Silwal is a Computer Science graduate from Nepal with experience in Python, Django, PHP, MySQL, JavaScript, React, and web application development.",
+      "image": "https://www.rajkrishnasilwal.com.np/og-image.png",
+      "sameAs": [
+        "https://www.linkedin.com/in/raz-silwal-74812a198"
+      ],
+      "knowsAbout": [
+        "Computer Science",
+        "Data Science",
+        "Machine Learning",
+        "Python",
+        "Django",
+        "PHP",
+        "MySQL",
+        "JavaScript",
+        "React",
+        "Web Development",
+        "Software Development",
+        "Backend Development"
+      ],
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "Tribhuvan University",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "NP"
         }
-      ]
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.rajkrishnasilwal.com.np/#website",
+      "url": "https://www.rajkrishnasilwal.com.np/",
+      "name": "Raj Krishna Silwal",
+      "description": "Personal portfolio of Raj Krishna Silwal, Computer Science graduate and Software Developer from Nepal.",
+      "publisher": {
+        "@id": "https://www.rajkrishnasilwal.com.np/#person"
+      }
     }
-    </script>
+  ]
+}
+</script>
   </head>
   <body>
     <div id="root"></div>
