@@ -6,7 +6,7 @@ import { contactInfo, siteConfig } from '../../data/config';
 // 3. Set HAS_PHOTO to true
 // ─────────────────────────────────────────────────────────────────────────────
 const HAS_PHOTO = true;
-const PROFILE_IMAGE_URL = '/images/profile.png';
+const PROFILE_IMAGE_URL = '/images/profile.webp';
 
 function GithubIcon() {
   return (
@@ -38,9 +38,13 @@ function ProfileAvatar() {
     return (
       <img
         src={PROFILE_IMAGE_URL}
-        alt="Raj Krishna Silwal"
+        alt="Raj Krishna Silwal, Computer Science graduate and software developer"
+        width={288}
+        height={288}
         className="w-full h-full object-cover"
         loading="eager"
+        fetchPriority="high"
+        decoding="async"
       />
     );
   }
@@ -48,11 +52,10 @@ function ProfileAvatar() {
   // Monogram placeholder shown until photo is added
   return (
     <div className="w-full h-full flex flex-col items-center justify-center bg-gradient-to-br from-navy-800 to-navy-700 select-none">
-      {/* Initials */}
       <span className="text-6xl font-bold text-primary-300/80 font-mono leading-none">RK</span>
       <span className="text-xs text-gray-600 mt-3 px-6 text-center leading-snug">
         Add your photo to<br />
-        <code className="font-mono text-gray-500">public/images/profile.jpg</code>
+        <code className="font-mono text-gray-500">public/images/profile.webp</code>
       </span>
     </div>
   );
