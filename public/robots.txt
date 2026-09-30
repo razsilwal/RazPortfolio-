@@ -1,6 +1,12 @@
 # robots.txt — Raj Krishna Silwal Portfolio
 User-agent: *
 Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: Googlebot
+Allow: /
+User-agent: Bingbot
+Allow: /
 Disallow: /src/
 
 Sitemap: https://www.rajkrishnasilwal.com.np/sitemap.xml
