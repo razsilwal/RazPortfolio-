@@ -114,7 +114,7 @@ export function Hero() {
               className="text-lg sm:text-xl text-gray-300 font-medium mb-6 animate-slide-up"
               style={{ animationDelay: '0.2s', animationFillMode: 'both' }}
             >
-          Computer Science Graduate &nbsp;|&nbsp; Software Developer &nbsp;|&nbsp; Data Science &amp; ML Enthusiast            </p>
+          Data Science & Machine Learning &nbsp;|&nbsp; Software Developer &nbsp;|&nbsp; Data Science &amp; ML Enthusiast            </p>
 
             {/* Introduction */}
             <p

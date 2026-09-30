@@ -126,23 +126,58 @@ export function ProjectCard({ project }: ProjectCardProps) {
         </div>
 
         {/* Actions */}
-        <div className="mt-auto pt-2 flex items-center gap-3">
-          <a
-            href={project.githubUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="
-              inline-flex items-center gap-2 text-sm font-medium text-gray-300
-              hover:text-white transition-colors duration-200
-              focus-visible:outline focus-visible:outline-2 focus-visible:outline-primary-500 rounded
-            "
-            aria-label={`View ${project.name} source code on GitHub`}
-          >
-            <GithubIcon />
-            View on GitHub
-            <ExternalLinkIcon />
-          </a>
-        </div>
+        {/* Actions */}
+<div className="mt-auto pt-2 flex items-center gap-4">
+
+  {/* Live Demo */}
+  {project.liveUrl && (
+    <a
+      href={project.liveUrl}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="
+        inline-flex items-center gap-2
+        px-3 py-1.5
+        rounded-lg
+        bg-primary-700
+        text-white
+        text-sm font-medium
+        hover:bg-primary-600
+        transition-colors duration-200
+        focus-visible:outline
+        focus-visible:outline-2
+        focus-visible:outline-primary-500
+      "
+      aria-label={`Open live demo of ${project.name}`}
+    >
+      <ExternalLinkIcon />
+      Live Demo
+    </a>
+  )}
+
+  {/* GitHub */}
+  <a
+    href={project.githubUrl}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="
+      inline-flex items-center gap-2
+      text-sm font-medium text-gray-300
+      hover:text-white
+      transition-colors duration-200
+      focus-visible:outline
+      focus-visible:outline-2
+      focus-visible:outline-primary-500
+      rounded
+    "
+    aria-label={`View ${project.name} source code on GitHub`}
+  >
+    <GithubIcon />
+    GitHub
+    <ExternalLinkIcon />
+  </a>
+
+</div>
       </div>
     </article>
   );
