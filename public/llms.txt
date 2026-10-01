@@ -1,0 +1,47 @@
+# Raj Krishna Silwal
+
+> Official portfolio of Raj Krishna Silwal, a Computer Science graduate and software developer from Nepal, with interests in Data Science, Machine Learning, Python, backend development, and web application development.
+
+## About
+
+Raj Krishna Silwal is a Computer Science graduate from Nepal and a software developer interested in Data Science, Machine Learning, Python, Django, backend development, and practical software applications.
+
+He has experience working with Python, Django, PHP, MySQL, JavaScript, React, HTML, CSS, and database-driven web applications.
+
+## Professional Profile
+
+- [Homepage](https://www.rajkrishnasilwal.com.np/)
+- [LinkedIn](https://www.linkedin.com/in/raz-silwal-74812a198)
+- [GitHub](https://github.com/razsilwal)
+
+## Projects
+
+The portfolio contains projects demonstrating software development, web development, database management, and machine learning-related work.
+
+- [Projects](https://www.rajkrishnasilwal.com.np/#projects)
+
+## Skills
+
+- Python
+- Machine Learning
+- Data Science
+- Django
+- PHP
+- JavaScript
+- React
+- MySQL
+- HTML
+- CSS
+- Git
+- Web Development
+- Backend Development
+
+## Education
+
+Raj Krishna Silwal is a Computer Science graduate from Nepal.
+
+## Contact
+
+- [Contact](https://www.rajkrishnasilwal.com.np/#contact)
+- [LinkedIn](https://www.linkedin.com/in/raz-silwal-74812a198)
+- [GitHub](https://github.com/razsilwal)
