@@ -1,6 +1,14 @@
-# Raj Krishna Silwal
+# Raj Krishna Silwal (Raz Silwal)
 
-> Official portfolio of Raj Krishna Silwal, a Computer Science graduate and software developer from Nepal, with interests in Data Science, Machine Learning, Python, backend development, and web application development.
+> Official portfolio of Raj Krishna Silwal — also known professionally as **Raz Silwal** — a Computer Science graduate and software developer based in Kathmandu, Nepal.
+
+## Names
+
+- **Full name:** Raj Krishna Silwal
+- **Professional / brand name:** Raz Silwal
+- Both names refer to the same person.
+
+> Last updated: 2026-10-08
 
 ## About
 
