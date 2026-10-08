@@ -100,14 +100,14 @@ export function Hero() {
             </div>
 
             {/* H1 — only one on the page */}
-            <h1
+            <h2
               id="hero-heading"
               className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-[1.08] mb-5 animate-slide-up"
               style={{ animationDelay: '0.1s', animationFillMode: 'both' }}
             >
               Raj Krishna{' '}
               <span className="text-primary-400">Silwal</span>
-            </h1>
+            </h2>
 
             {/* Subtitle */}
             <p

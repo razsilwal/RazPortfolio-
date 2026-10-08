@@ -14,12 +14,12 @@ export function NotFound() {
           404
         </div>
 
-        <h1
+        <h2
           id="not-found-heading"
           className="text-2xl font-bold text-white mb-3"
         >
           Page not found
-        </h1>
+        </h2>
         <p className="text-gray-400 text-base mb-8 leading-relaxed">
           The page you are looking for does not exist or has been moved.
         </p>
